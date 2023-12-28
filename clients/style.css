@@ -1,0 +1,40 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: burlywood;
+}
+nav> li{
+    display: inline-block;
+    margin-left: 50px;
+    height: 30px;
+    background-color: antiquewhite;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+#courses_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.course{
+    height: 300px;
+    width: calc(100% / 3 - 40px ) ;
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+.course img{
+margin-left:10% ;
+    width: 80%;
+}
